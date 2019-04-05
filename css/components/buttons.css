@@ -1,0 +1,32 @@
+/* Colors */
+/*Background color fro all*/
+/* Font sizes */
+/* Fonts */
+/* Size */
+/* line 7, sass/components/buttons.scss */ .btn-danger, .btn-default, .btn-info, .btn-primary, .btn-success, .btn-warning { text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2); -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075); }
+
+/* line 13, sass/components/buttons.scss */ .btn-success { background-image: -webkit-linear-gradient(top, #F58220 0, #E3E3E3 100%); background-image: -o-linear-gradient(top, #979797 0, #E3E3E3 100%); background-image: -webkit-gradient(linear, left top, left bottom, from(#979797), to(#E3E3E3)); background-image: linear-gradient(to bottom, #979797 0, #E3E3E3 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$brand-button-color', endColorstr='$color-g-color', GradientType=0); filter: progid:DXImageTransform.Microsoft.gradient(enabled=false); background-repeat: repeat-x; border-color: #F58220; }
+
+/* line 24, sass/components/buttons.scss */ .btn-success { color: #FFFFFF; background-color: #F58220; border-color: #FFA200; }
+
+/* line 29, sass/components/buttons.scss */ .btn-success:hover { color: #FFFFFF; background-color: #FFA200; border-color: #E3E3E3; }
+
+/* line 35, sass/components/buttons.scss */ .btn-danger, .btn-default, .btn-info, .btn-primary, .btn-success, .btn-warning { text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2); -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075); }
+
+/* line 42, sass/components/buttons.scss */ .btn-group-lg > .btn, .btn-lg { padding: 10px 16px; font-size: 18px; line-height: 1.3333333; border-radius: 6px; }
+
+/* line 49, sass/components/buttons.scss */ .btn-group-xs > .btn, .btn-sm { padding: 1px 5px; font-size: 12px; line-height: 1.5; border-radius: 3px; }
+
+/* line 57, sass/components/buttons.scss */ .negative-notification { color: #FFFFFF; background-color: #DE5252; border-color: #E3E3E3; }
+
+/* line 63, sass/components/buttons.scss */ .negative-notification:hover { color: #FFFFFF; background-color: #EC7171; border-color: #E3E3E3; }
+
+/* line 69, sass/components/buttons.scss */ .positive-notification { color: #FFFFFF; background-color: #04AE00; border-color: #74B67A; }
+
+/* line 75, sass/components/buttons.scss */ .positive-notification:hover { color: #FFFFFF; background-color: #96CC9B; border-color: #74B67A; }
+
+/* line 83, sass/components/buttons.scss */ .btn-danger { color: #FFFFFF; background-color: #979797; border-color: #E3E3E3; }
+
+/* line 89, sass/components/buttons.scss */ .btn-danger:hover { color: #333; background-color: #F5F5F2; border-color: #E3E3E3; }
+
+/* line 95, sass/components/buttons.scss */ .btn { display: inline-block; padding: 6px 12px; margin-bottom: 0; font-size: 14px; font-weight: 400; line-height: 1.42857143; text-align: center; white-space: nowrap; vertical-align: middle; -ms-touch-action: manipulation; touch-action: manipulation; cursor: pointer; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; background-image: none; border: 1px solid transparent; border-radius: 4px; }

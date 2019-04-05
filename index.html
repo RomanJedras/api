@@ -1,0 +1,42 @@
+<!DOCUMENT hlml>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Api</title>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<section class="container-fluid">
+  <div class="row">
+    <div class="col-sm-12 col-md-12">
+      <h1 class="head">Country search engine</h1>
+      <button class="btn btn-danger" id="search" >Search a country</button>
+      <input class="search" id="country-name" type="text" />
+      <h2>List of countries</h2>
+      <ul id="countries" class="lst-countries">
+        <li>No data</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<script id="template-country-list" type="x-tmpl-mustache">
+    <li>
+      <div class="country-elem">
+        <div class="container">
+          <p class="capital-country">Capital :  <span class='capital'>{{ capital }}</span></p>
+          <p class="capital-currencies">Currencies :  <span class='currencies'>{{ currencies }}</span></p>
+          <p class="capital-region">Region :  <span class='region'>{{ region }}</span></p>
+          <p class="capital-population">Population :  <span class='population'>{{ population }} (milion)</span></p>
+        </div>
+      </div>
+    </li>
+</script>
+
+<script type="text/javascript" src="vendor/mustashe/mustache.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
