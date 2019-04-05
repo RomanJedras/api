@@ -45,6 +45,8 @@
 
     let countryDataCount = tab.length;
     for (let i = 0; i < countryDataCount; i++) {
+           if (! tab[i].capital ) tab[i].capital = 'Unknow capital';
+
             listItems += Mustache.render(templateList, tab[i]);
     }
     Mustache.parse(templateList);
