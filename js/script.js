@@ -4,15 +4,17 @@
     let templateList = document.getElementById('template-country-list').innerHTML;
     let listItems = ''
     let status = '';
-
+    let isLoad = false;
     if (countriesList.children[0].innerHTML === 'No data') {
         countriesList.classList.add('hasnt')
     }
 
 
-    document.getElementById('search').addEventListener('click', searchCountries);
+    const button = document.getElementById('search');
+        button.addEventListener('click', searchCountries);
 
     function searchCountries() {
+
         let countryName = document.getElementById('country-name').value;
         let country = document.getElementById('country-name');
         let info = document.getElementById('info');
@@ -26,14 +28,17 @@
 
         countriesList.classList.remove('hasnt');
 
-        if(countryName.length >= 2) {
+        if(countryName.length >= 2 && ! isLoad) {
+
         status = "Waiting by data";
         countriesList.firstElementChild.innerHTML = status;
         setTimeout(function () {
             fetch(url + countryName).then(function (resp) {
                 return resp.json();
             }).then(showCountriesList);
-
+            isLoad = true;
+            button.disabled = true;
+            button.innerText = 'Just get data';
             },3000)
 
         }
