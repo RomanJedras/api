@@ -30,11 +30,11 @@
         status = "Waiting by data";
         countriesList.firstElementChild.innerHTML = status;
         setTimeout(function () {
-        fetch(url + countryName).then(function (resp) {
-            return resp.json();
-        }).then(showCountriesList);
+            fetch(url + countryName).then(function (resp) {
+                return resp.json();
+            }).then(showCountriesList);
 
-          },3000)
+            },3000)
 
         }
 
