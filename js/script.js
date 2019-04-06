@@ -3,7 +3,7 @@
     let countriesList = document.getElementById('countries');
     let templateList = document.getElementById('template-country-list').innerHTML;
     let listItems = ''
-
+    let status = '';
 
     if (countriesList.children[0].innerHTML === 'No data') {
         countriesList.classList.add('hasnt')
@@ -26,15 +26,16 @@
 
         countriesList.classList.remove('hasnt');
 
-        if (countriesList.firstElementChild) {
-            countriesList.firstElementChild.classList.add('hidden');
-        }
-
         if(countryName.length >= 2) {
+        status = "Waiting by data";
+        countriesList.firstElementChild.innerHTML = status;
+        setTimeout(function () {
+        fetch(url + countryName).then(function (resp) {
+            return resp.json();
+        }).then(showCountriesList);
 
-            fetch(url + countryName).then(function (resp) {
-                return resp.json();
-            }).then(showCountriesList);
+          },3000)
+
         }
 
     }
@@ -51,13 +52,16 @@
 
     function getVirtualSt(tab) {
 
-    let countryDataCount = tab.length;
-    for (let i = 0; i < countryDataCount; i++) {
+        let countryDataCount = tab.length;
+        status = 'Download information about countries';
+        countriesList.firstElementChild.classList.add('status')
+        countriesList.firstElementChild.innerHTML = status;
+        for (let i = 0; i < countryDataCount; i++) {
            if (! tab[i].capital ) tab[i].capital = 'Unknow capital';
            if (! tab[i].length && tab[i].region !== '') listItems += Mustache.render(templateList, tab[i]);
-    }
-    Mustache.parse(templateList);
-    countriesList.insertAdjacentHTML('beforeend', listItems);
+         }
+        Mustache.parse(templateList);
+        countriesList.insertAdjacentHTML('beforeend', listItems);
     }
 
 })();
