@@ -1,8 +1,8 @@
 (function () {
-    let url = 'https://restcountries.eu/rest/v1/name/';
-    let countriesList = document.getElementById('countries');
-    let templateList = document.getElementById('template-country-list').innerHTML;
-    let listItems = ''
+    const url = 'https://restcountries.eu/rest/v1/name/';
+    const countriesList = document.getElementById('countries');
+    const templateList = document.getElementById('template-country-list').innerHTML;
+    let listItems = '';
     let status = '';
     let isLoad = false;
     if (countriesList.children[0].innerHTML === 'No data') {
@@ -40,9 +40,7 @@
             button.disabled = true;
             button.innerText = 'Just get data';
             },3000)
-
         }
-
     }
 
     function showCountriesList(resp) {
@@ -59,7 +57,7 @@
 
         let countryDataCount = tab.length;
         status = 'Download information about countries';
-        countriesList.firstElementChild.classList.add('status')
+        countriesList.firstElementChild.classList.add('status');
         countriesList.firstElementChild.innerHTML = status;
         for (let i = 0; i < countryDataCount; i++) {
            if (! tab[i].capital ) tab[i].capital = 'Unknow capital';
