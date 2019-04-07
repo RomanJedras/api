@@ -172,68 +172,70 @@
 
 /* line 456, sass/style.css */ .country-elem span { top: 20px; left: 120px; position: absolute; }
 
-/* line 461, sass/style.css */ .head { white-space: nowrap; font-size: 25px; }
+/* line 461, sass/style.css */ .lst-countries .error { background-color: #DE5252; color: #FFFFFF; }
 
-/* line 465, sass/style.css */ .btn { -webkit-appearance: none; margin: 10px; }
+/* line 465, sass/style.css */ .head { white-space: nowrap; font-size: 25px; }
 
-/* line 469, sass/style.css */ .search { -webkit-appearance: none; display: block; width: 100%; padding: .375rem .75rem; font-size: 1rem; line-height: 1.5; color: #495057; background-color: #FFFFFF; background-clip: padding-box; border: 1px solid #ced4da; border-radius: .25rem; transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out; }
+/* line 469, sass/style.css */ .btn { -webkit-appearance: none; margin: 10px; }
 
-/* line 483, sass/style.css */ .alert { border: 1px solid #DE5252; }
+/* line 473, sass/style.css */ .search { -webkit-appearance: none; display: block; width: 100%; padding: .375rem .75rem; font-size: 1rem; line-height: 1.5; color: #495057; background-color: #FFFFFF; background-clip: padding-box; border: 1px solid #ced4da; border-radius: .25rem; transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out; }
 
-@media (max-width: 767px) { /* line 487, sass/style.css */ .col-sm-1 { flex: 0 0 8.3333333333%; max-width: 8.3333333333%; }
-  /* line 491, sass/style.css */ .col-sm-2 { flex: 0 0 16.6666666667%; max-width: 16.6666666667%; }
-  /* line 495, sass/style.css */ .col-sm-3 { flex: 0 0 25%; max-width: 25%; }
-  /* line 499, sass/style.css */ .col-sm-4 { flex: 0 0 33.3333333333%; max-width: 33.3333333333%; }
-  /* line 503, sass/style.css */ .col-sm-5 { flex: 0 0 41.6666666667%; max-width: 41.6666666667%; }
-  /* line 507, sass/style.css */ .col-sm-6 { flex: 0 0 50%; max-width: 50%; }
-  /* line 511, sass/style.css */ .col-sm-7 { flex: 0 0 58.3333333333%; max-width: 58.3333333333%; }
-  /* line 515, sass/style.css */ .col-sm-8 { flex: 0 0 66.6666666667%; max-width: 66.6666666667%; }
-  /* line 519, sass/style.css */ .col-sm-9 { flex: 0 0 75%; max-width: 75%; }
-  /* line 523, sass/style.css */ .col-sm-10 { flex: 0 0 83.3333333333%; max-width: 83.3333333333%; }
-  /* line 527, sass/style.css */ .col-sm-11 { flex: 0 0 91.6666666667%; max-width: 91.6666666667%; }
-  /* line 531, sass/style.css */ .col-sm-12 { flex: 0 0 100%; max-width: 100%; }
-  /* line 535, sass/style.css */ .lst-countries { padding: 0; } }
+/* line 487, sass/style.css */ .alert { border: 1px solid #DE5252; }
 
-@media (max-width: 480px) { /* line 538, sass/style.css */ .btn { margin: 0 auto 26px; width: calc(100% - 120px); display: block; }
-  /* line 543, sass/style.css */ .head { text-align: center; } }
+@media (max-width: 767px) { /* line 491, sass/style.css */ .col-sm-1 { flex: 0 0 8.3333333333%; max-width: 8.3333333333%; }
+  /* line 495, sass/style.css */ .col-sm-2 { flex: 0 0 16.6666666667%; max-width: 16.6666666667%; }
+  /* line 499, sass/style.css */ .col-sm-3 { flex: 0 0 25%; max-width: 25%; }
+  /* line 503, sass/style.css */ .col-sm-4 { flex: 0 0 33.3333333333%; max-width: 33.3333333333%; }
+  /* line 507, sass/style.css */ .col-sm-5 { flex: 0 0 41.6666666667%; max-width: 41.6666666667%; }
+  /* line 511, sass/style.css */ .col-sm-6 { flex: 0 0 50%; max-width: 50%; }
+  /* line 515, sass/style.css */ .col-sm-7 { flex: 0 0 58.3333333333%; max-width: 58.3333333333%; }
+  /* line 519, sass/style.css */ .col-sm-8 { flex: 0 0 66.6666666667%; max-width: 66.6666666667%; }
+  /* line 523, sass/style.css */ .col-sm-9 { flex: 0 0 75%; max-width: 75%; }
+  /* line 527, sass/style.css */ .col-sm-10 { flex: 0 0 83.3333333333%; max-width: 83.3333333333%; }
+  /* line 531, sass/style.css */ .col-sm-11 { flex: 0 0 91.6666666667%; max-width: 91.6666666667%; }
+  /* line 535, sass/style.css */ .col-sm-12 { flex: 0 0 100%; max-width: 100%; }
+  /* line 539, sass/style.css */ .lst-countries { padding: 0; } }
 
-@media (min-width: 768px) { /* line 546, sass/style.css */ .col-md-1 { flex: 0 0 8.3333333333%; max-width: 8.3333333333%; }
-  /* line 550, sass/style.css */ .col-md-2 { flex: 0 0 16.6666666667%; max-width: 16.6666666667%; }
-  /* line 554, sass/style.css */ .col-md-3 { flex: 0 0 25%; max-width: 25%; }
-  /* line 558, sass/style.css */ .col-md-4 { flex: 0 0 33.3333333333%; max-width: 33.3333333333%; }
-  /* line 562, sass/style.css */ .col-md-5 { flex: 0 0 41.6666666667%; max-width: 41.6666666667%; }
-  /* line 566, sass/style.css */ .col-md-6 { flex: 0 0 50%; max-width: 50%; }
-  /* line 570, sass/style.css */ .col-md-7 { flex: 0 0 58.3333333333%; max-width: 58.3333333333%; }
-  /* line 574, sass/style.css */ .col-md-8 { flex: 0 0 66.6666666667%; max-width: 66.6666666667%; }
-  /* line 578, sass/style.css */ .col-md-9 { flex: 0 0 75%; max-width: 75%; }
-  /* line 582, sass/style.css */ .col-md-10 { flex: 0 0 83.3333333333%; max-width: 83.3333333333%; }
-  /* line 586, sass/style.css */ .col-md-11 { flex: 0 0 91.6666666667%; max-width: 91.6666666667%; }
-  /* line 590, sass/style.css */ .col-md-12 { flex: 0 0 100%; max-width: 100%; } }
+@media (max-width: 480px) { /* line 542, sass/style.css */ .btn { margin: 0 auto 26px; width: calc(100% - 120px); display: block; }
+  /* line 547, sass/style.css */ .head { text-align: center; } }
 
-@media (min-width: 992px) { /* line 594, sass/style.css */ .col-lg-1 { flex: 0 0 8.3333333333%; max-width: 8.3333333333%; }
-  /* line 598, sass/style.css */ .col-lg-2 { flex: 0 0 16.6666666667%; max-width: 16.6666666667%; }
-  /* line 602, sass/style.css */ .col-lg-3 { flex: 0 0 25%; max-width: 25%; }
-  /* line 606, sass/style.css */ .col-lg-4 { flex: 0 0 33.3333333333%; max-width: 33.3333333333%; }
-  /* line 610, sass/style.css */ .col-lg-5 { flex: 0 0 41.6666666667%; max-width: 41.6666666667%; }
-  /* line 614, sass/style.css */ .col-lg-6 { flex: 0 0 50%; max-width: 50%; }
-  /* line 618, sass/style.css */ .col-lg-7 { flex: 0 0 58.3333333333%; max-width: 58.3333333333%; }
-  /* line 622, sass/style.css */ .col-lg-8 { flex: 0 0 66.6666666667%; max-width: 66.6666666667%; }
-  /* line 626, sass/style.css */ .col-lg-9 { flex: 0 0 75%; max-width: 75%; }
-  /* line 630, sass/style.css */ .col-lg-10 { flex: 0 0 83.3333333333%; max-width: 83.3333333333%; }
-  /* line 634, sass/style.css */ .col-lg-11 { flex: 0 0 91.6666666667%; max-width: 91.6666666667%; }
-  /* line 638, sass/style.css */ .col-lg-12 { flex: 0 0 100%; max-width: 100%; } }
+@media (min-width: 768px) { /* line 550, sass/style.css */ .col-md-1 { flex: 0 0 8.3333333333%; max-width: 8.3333333333%; }
+  /* line 554, sass/style.css */ .col-md-2 { flex: 0 0 16.6666666667%; max-width: 16.6666666667%; }
+  /* line 558, sass/style.css */ .col-md-3 { flex: 0 0 25%; max-width: 25%; }
+  /* line 562, sass/style.css */ .col-md-4 { flex: 0 0 33.3333333333%; max-width: 33.3333333333%; }
+  /* line 566, sass/style.css */ .col-md-5 { flex: 0 0 41.6666666667%; max-width: 41.6666666667%; }
+  /* line 570, sass/style.css */ .col-md-6 { flex: 0 0 50%; max-width: 50%; }
+  /* line 574, sass/style.css */ .col-md-7 { flex: 0 0 58.3333333333%; max-width: 58.3333333333%; }
+  /* line 578, sass/style.css */ .col-md-8 { flex: 0 0 66.6666666667%; max-width: 66.6666666667%; }
+  /* line 582, sass/style.css */ .col-md-9 { flex: 0 0 75%; max-width: 75%; }
+  /* line 586, sass/style.css */ .col-md-10 { flex: 0 0 83.3333333333%; max-width: 83.3333333333%; }
+  /* line 590, sass/style.css */ .col-md-11 { flex: 0 0 91.6666666667%; max-width: 91.6666666667%; }
+  /* line 594, sass/style.css */ .col-md-12 { flex: 0 0 100%; max-width: 100%; } }
 
-@media (max-width: 1200px) { /* line 642, sass/style.css */ .col-xl-1 { flex: 0 0 8.3333333333%; max-width: 8.3333333333%; }
-  /* line 646, sass/style.css */ .col-xl-2 { flex: 0 0 16.6666666667%; max-width: 16.6666666667%; }
-  /* line 650, sass/style.css */ .col-xl-3 { flex: 0 0 25%; max-width: 25%; }
-  /* line 654, sass/style.css */ .col-xl-4 { flex: 0 0 33.3333333333%; max-width: 33.3333333333%; }
-  /* line 658, sass/style.css */ .col-xl-5 { flex: 0 0 41.6666666667%; max-width: 41.6666666667%; }
-  /* line 662, sass/style.css */ .col-xl-6 { flex: 0 0 50%; max-width: 50%; }
-  /* line 666, sass/style.css */ .col-xl-7 { flex: 0 0 58.3333333333%; max-width: 58.3333333333%; }
-  /* line 670, sass/style.css */ .col-xl-8 { flex: 0 0 66.6666666667%; max-width: 66.6666666667%; }
-  /* line 674, sass/style.css */ .col-xl-9 { flex: 0 0 75%; max-width: 75%; }
-  /* line 678, sass/style.css */ .col-xl-10 { flex: 0 0 83.3333333333%; max-width: 83.3333333333%; }
-  /* line 682, sass/style.css */ .col-xl-11 { flex: 0 0 91.6666666667%; max-width: 91.6666666667%; }
-  /* line 686, sass/style.css */ .col-xl-12 { flex: 0 0 100%; max-width: 100%; } }
+@media (min-width: 992px) { /* line 598, sass/style.css */ .col-lg-1 { flex: 0 0 8.3333333333%; max-width: 8.3333333333%; }
+  /* line 602, sass/style.css */ .col-lg-2 { flex: 0 0 16.6666666667%; max-width: 16.6666666667%; }
+  /* line 606, sass/style.css */ .col-lg-3 { flex: 0 0 25%; max-width: 25%; }
+  /* line 610, sass/style.css */ .col-lg-4 { flex: 0 0 33.3333333333%; max-width: 33.3333333333%; }
+  /* line 614, sass/style.css */ .col-lg-5 { flex: 0 0 41.6666666667%; max-width: 41.6666666667%; }
+  /* line 618, sass/style.css */ .col-lg-6 { flex: 0 0 50%; max-width: 50%; }
+  /* line 622, sass/style.css */ .col-lg-7 { flex: 0 0 58.3333333333%; max-width: 58.3333333333%; }
+  /* line 626, sass/style.css */ .col-lg-8 { flex: 0 0 66.6666666667%; max-width: 66.6666666667%; }
+  /* line 630, sass/style.css */ .col-lg-9 { flex: 0 0 75%; max-width: 75%; }
+  /* line 634, sass/style.css */ .col-lg-10 { flex: 0 0 83.3333333333%; max-width: 83.3333333333%; }
+  /* line 638, sass/style.css */ .col-lg-11 { flex: 0 0 91.6666666667%; max-width: 91.6666666667%; }
+  /* line 642, sass/style.css */ .col-lg-12 { flex: 0 0 100%; max-width: 100%; } }
+
+@media (max-width: 1200px) { /* line 646, sass/style.css */ .col-xl-1 { flex: 0 0 8.3333333333%; max-width: 8.3333333333%; }
+  /* line 650, sass/style.css */ .col-xl-2 { flex: 0 0 16.6666666667%; max-width: 16.6666666667%; }
+  /* line 654, sass/style.css */ .col-xl-3 { flex: 0 0 25%; max-width: 25%; }
+  /* line 658, sass/style.css */ .col-xl-4 { flex: 0 0 33.3333333333%; max-width: 33.3333333333%; }
+  /* line 662, sass/style.css */ .col-xl-5 { flex: 0 0 41.6666666667%; max-width: 41.6666666667%; }
+  /* line 666, sass/style.css */ .col-xl-6 { flex: 0 0 50%; max-width: 50%; }
+  /* line 670, sass/style.css */ .col-xl-7 { flex: 0 0 58.3333333333%; max-width: 58.3333333333%; }
+  /* line 674, sass/style.css */ .col-xl-8 { flex: 0 0 66.6666666667%; max-width: 66.6666666667%; }
+  /* line 678, sass/style.css */ .col-xl-9 { flex: 0 0 75%; max-width: 75%; }
+  /* line 682, sass/style.css */ .col-xl-10 { flex: 0 0 83.3333333333%; max-width: 83.3333333333%; }
+  /* line 686, sass/style.css */ .col-xl-11 { flex: 0 0 91.6666666667%; max-width: 91.6666666667%; }
+  /* line 690, sass/style.css */ .col-xl-12 { flex: 0 0 100%; max-width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */
