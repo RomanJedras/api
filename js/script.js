@@ -16,10 +16,6 @@
     const button = document.getElementById('search');
         button.addEventListener('click', searchCountries);
 
-        button.onclick = function () {
-            count += 1;
-        };
-
 
     function searchCountries() {
 
@@ -46,6 +42,7 @@
                 if (resp.status !== 200) {
                     throw "InvalidData";
                 } else {
+                  isLoad = false;
                   button.innerText = 'Just get data';
                   info.style.color = '';
                   countriesList.firstElementChild.classList.add('status');
@@ -70,8 +67,6 @@
           },3000)
         }
         isLoad = true;
-
-
 
     }
 
